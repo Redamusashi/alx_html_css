@@ -135,7 +135,7 @@ justify-items: center;
 justify-self: center;
     display:flex;
 justify-items: center;
-   border: 1px solid yellow;
+   border: 1px solid black;
    justify-content: space-evenly;
    align-items:center;
    border-top: 0;
@@ -143,10 +143,12 @@ justify-items: center;
 
 }
 
+
+
 #title
 { 
     display: flex;
-    border: 1px solid yellow;
+    border: 1px solid black;
     text-align: center;
     justify-content: center;
     margin: 5px;
@@ -163,7 +165,7 @@ justify-content: center;
 align-items: center;
 text-align: center;
 padding: 20px;
-margin-top: 2px;
+margin-top: 4px;
 }
 
 
@@ -184,6 +186,7 @@ align-items: center;
 padding: space-evenly;
 }
 #person1 img{border: 1px solid green;
+    margin-top: 2px;
 }
 #person1 p{border: 2px solid blue;
     padding: 35px;
@@ -305,35 +308,43 @@ margin:10px;
    .title4 h1
    {
     display: flex;
-    border: 4px solid red ;
-    padding: 20px;
+    border: 1px solid red ;
+    padding: 15px;
     align-content: center;  
     justify-content: center;
     width:fit-content;
+    
  }
  .title4
  {
     border: 1px solid black;
     width: inherit;
-    padding-left: 40%;
-
+    padding-left: 43%;
+    justify-content: center;
+    
  }
    
   #hero4
     {
         display: flex;
-        display:flex;
-        border: 3px solid blue;
-        padding: 20px;
+        border: 1px solid blue;
+        padding: 15px;
         text-align: center;
         justify-content: space-around;
         justify-items: center;
+        align-items: center;
+        width: inherit;
+        margin-bottom: 0;
     }
     #hero4 div
     {
+     
      justify-content: space-between;
      align-content: space-between;
      justify-items: space-around;
+     margin: 4px;
+     border: 1px solid black;
+     align-items: center;
      margin: 4px;
     }
     #picture
@@ -347,24 +358,32 @@ margin:10px;
   
     #hero4 h1
     {
-        border: 1px solid orange;
-        padding: 20px;
+        display:flex;
+        width: auto;
+        border: 1px solid red;
+        padding: 15px;
+        justify-content:center;
+        text-align: center;
+        align-items: center;
+        margin: 4px;
     }
     #hero4 p
     {
         border: 1px solid orange;
-        padding: 20px;
+        padding: 18px;
+        margin: 4px;
     }
     #hero4 span
     {
-        border: 1px solid orange;
-        padding: 20px;
+        border: 1px solid green;
+        padding: 15px;
+        margin: 4px;
     }
     
     
     .hero4body0
     {
-        border: 2px solid black;
+        border: 1px solid black;
         display:flex;
         justify-items: center;
         align-items: center;
@@ -376,25 +395,26 @@ margin:10px;
 
     {
         display:flex;
-        border: 3px solid red;
+        border: 1px solid red;
         justify-content: center;
         align-items: center;
         justify-items: center;
     }
-    #hero4main
-    {
-        border: 1px solid black;
-    }
+    
+    
     main
     {
         justify-content:center;
+
     }
 
     #button 
 {
-    padding: 20px;
+    margin: 0;
+    margin-bottom: 4px;
+    
     align-content: center;
-    align-content: center;
+    align-items: center;
     text-align: center;
 
 }
@@ -410,6 +430,12 @@ margin:10px;
     text-align: center;
     margin-bottom: 2px;
 
+}
+
+#hero5
+{
+    border: 1px solid black;
+    margin-bottom: 4px;
 }
 #title6
 {
@@ -471,21 +497,34 @@ margin: 4px;
 
 footer div
 {
-    height: 50px;
+    height: inherit;
     display:flex;
     border: 1px solid red;
     justify-content:space-between;
     text-align: center;
-
-}
-footer div img
-{
-    border: 1px solid blue;
+    align-items: center;
+    justify-items: center;
     margin: 4px;
-    height: fit-content;
-    border: 20px;
+}
+
+
+#nav-links2
+{
+    width: inherit;
+    border: 1px solid blue;
+    padding: 4px;
+    justify-content:center;
+    margin: 4px;
+    align-content: center;
+    align-items: center;
     
 }
+#nav-links2 a
+{
+border: 1px solid yellow;
+margin:4px;
+}
+
 
 
  
