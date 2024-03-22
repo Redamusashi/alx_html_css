@@ -28,5 +28,10 @@ main aside
     overflow-y: auto;
     width: 100%;
     margin: 10px;
+    height:fit-content;
 }
+ header ul li h4
+ {
+    justify-items:stretch ;
+ }
 
