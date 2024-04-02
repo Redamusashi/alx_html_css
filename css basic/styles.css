@@ -10,7 +10,7 @@ main
     flex: auto;
     padding-top: 20%;
     text-align: center;
-align-content: justify;   
+    align-content: justify;   
 }
 
 main article
@@ -30,8 +30,13 @@ main aside
     margin: 10px;
     height:fit-content;
 }
- header ul li h4
- {
-    justify-items:stretch ;
- }
-
+ 
+.main-header
+{
+    display:flex;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
